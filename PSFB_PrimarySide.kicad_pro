@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 3.0
         }
       },
       "diff_pair_dimensions": [
@@ -498,7 +498,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -648,7 +648,7 @@
         "uuid": "52194b95-dcb8-4042-92d9-34956887dcfd"
       }
     ],
-    "used_designators": "D1-4,D6,D11-31,#PWR2,#PWR4-5,#PWR9-15,#PWR28-29,#PWR31-33,#PWR35-83,#PWR95-113,C4,C13,C15-45,R3-5,R9,R12,R14-42,J6-10,Q2-4,U1-4,U6-9",
+    "used_designators": "U5,U10-12,#PWR6-8,#PWR71,#PWR84-93,#PWR97-99,#PWR114-128,D2,D29,D32-35,C3,C14,C21,C30,C39,C45-53,J9-14",
     "variants": []
   },
   "sheets": [

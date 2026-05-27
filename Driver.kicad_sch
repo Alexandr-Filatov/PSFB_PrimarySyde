@@ -2309,7 +2309,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2334,7 +2334,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2366,7 +2366,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2388,7 +2388,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2426,7 +2426,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2610,12 +2610,6 @@
 		(uuid "631fa000-71a6-4aef-a2f1-0eeaded14e7a")
 	)
 	(junction
-		(at 287.02 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65eb3d7b-6599-49f6-942a-ba62b13bc275")
-	)
-	(junction
 		(at 266.7 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2638,12 +2632,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82527a80-7309-4f95-a460-3171879bbe13")
-	)
-	(junction
-		(at 287.02 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "833dde48-de6a-425f-b9d7-fa2cb3db778d")
 	)
 	(junction
 		(at 255.27 149.86)
@@ -2705,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 162.56) (xy 287.02 162.56)
+			(xy 266.7 162.56) (xy 289.56 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2752,16 +2740,6 @@
 			(type default)
 		)
 		(uuid "10fc69e7-f415-494a-9337-04d3ae113f83")
-	)
-	(wire
-		(pts
-			(xy 287.02 162.56) (xy 266.7 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "132f5b59-f0fe-48da-b69a-6e8ea17d5bab")
 	)
 	(wire
 		(pts
@@ -2985,16 +2963,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 137.16) (xy 289.56 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b336109-e295-4b63-9a73-6fe33c6bf224")
-	)
-	(wire
-		(pts
 			(xy 213.36 120.65) (xy 222.25 120.65)
 		)
 		(stroke
@@ -3012,16 +2980,6 @@
 			(type default)
 		)
 		(uuid "69b2bfae-afc2-4867-af84-6e2b3e8aa1ab")
-	)
-	(wire
-		(pts
-			(xy 287.02 137.16) (xy 287.02 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4a6700-f9af-418f-aeda-5322c1f9bf00")
 	)
 	(wire
 		(pts
@@ -3085,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 137.16) (xy 287.02 137.16)
+			(xy 266.7 137.16) (xy 289.56 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3422,16 +3380,6 @@
 			(type default)
 		)
 		(uuid "eea7669e-e27b-43d9-b1b1-bd85832fe0c1")
-	)
-	(wire
-		(pts
-			(xy 287.02 153.67) (xy 287.02 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee4e72d-bb34-4796-87d0-365026e9c0ff")
 	)
 	(wire
 		(pts
@@ -3841,7 +3789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 133.35 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -3851,7 +3799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0788f585-b28c-48e6-87c0-6905774b34f7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 133.35 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3862,7 +3810,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 133.35 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3911,19 +3859,19 @@
 		(instances
 			(project "PSFB_PrimarySide"
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -5225,140 +5173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 287.02 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21512e25-b479-432d-98e6-e089c5590dd7")
-		(property "Reference" "C14"
-			(at 287.274 147.828 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220p"
-			(at 287.274 151.892 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
-			(at 287.9852 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 287.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" "Capacitor SMD 50+V"
-			(at 287.02 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" ""
-			(at 287.02 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" ""
-			(at 287.02 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement" ""
-			(at 287.02 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8b49bdb-7c1a-48f6-b2b1-7f3d54ff7073")
-		)
-		(pin "2"
-			(uuid "d42f95fd-bcf3-4b90-8abb-7317dbda43f1")
-		)
-		(instances
-			(project "PSFB_PrimarySide"
-				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "C14")
-					(unit 1)
-				)
-				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "C39")
-					(unit 1)
-				)
-				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 156.21 151.13 90)
 		(unit 1)
@@ -5858,7 +5672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 187.96 148.59 90)
 		(unit 1)
 		(body_style 1)
@@ -5868,7 +5682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46b75a56-75d7-4999-90be-f6e598ee1f42")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR25"
 			(at 191.77 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5879,8 +5693,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 182.245 148.59 90)
+		(property "Value" "+3.3V"
+			(at 181.356 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5911,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 187.96 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5928,19 +5742,19 @@
 		(instances
 			(project "PSFB_PrimarySide"
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "#PWR037")
+					(reference "#PWR37")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "#PWR025")
+					(reference "#PWR25")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "#PWR053")
+					(reference "#PWR53")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -6320,7 +6134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 147.32 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -6330,7 +6144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b9fd89a-0b63-411a-9206-79232c8a4e02")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 147.32 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6341,7 +6155,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 147.32 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 147.32 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6390,19 +6204,19 @@
 		(instances
 			(project "PSFB_PrimarySide"
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -7696,7 +7510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 101.6 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -7706,7 +7520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8c28efb-2881-4690-99b5-a54dbfe34efd")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 101.6 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7717,8 +7531,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 101.6 139.954 0)
+		(property "Value" "+3.3V"
+			(at 101.6 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7749,7 +7563,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 101.6 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7766,19 +7580,19 @@
 		(instances
 			(project "PSFB_PrimarySide"
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "#PWR060")
+					(reference "#PWR60")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -7965,7 +7779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 160.02 166.37 180)
 		(unit 1)
 		(body_style 1)
@@ -7975,7 +7789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8651487-9c6f-4fd6-b97c-fc5efd79590c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 160.02 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7986,7 +7800,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 160.02 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +7832,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 160.02 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8035,19 +7849,19 @@
 		(instances
 			(project "PSFB_PrimarySide"
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "#PWR028")
+					(reference "#PWR28")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -8433,7 +8247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 156.21 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -8443,7 +8257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcc9a479-2064-4e2e-8b0a-69e90b7d1d71")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 156.21 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8454,7 +8268,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 156.21 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8486,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 156.21 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8503,19 +8317,19 @@
 		(instances
 			(project "PSFB_PrimarySide"
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/36525621-63fd-4b35-9220-f132ee3a9e7b"
-					(reference "#PWR054")
+					(reference "#PWR54")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/4138c54d-5c98-44b0-b8f1-15d0e26b7a1d"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/8183455e-302a-47f2-a69f-158529faf570"
-					(reference "#PWR058")
+					(reference "#PWR58")
 					(unit 1)
 				)
 				(path "/52194b95-dcb8-4042-92d9-34956887dcfd/89e5bf70-0c50-4175-b6cc-5f0eeedc40aa"
-					(reference "#PWR056")
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
