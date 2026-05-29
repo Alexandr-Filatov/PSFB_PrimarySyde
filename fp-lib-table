@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "MORNSUN") (type "KiCad") (uri "${DESKTOP}/Проекты/PSFB_PrimarySide/Lib/MORNSUN.pretty") (options "") (descr ""))
 	(lib (name "MORNSUN") (type "KiCad") (uri "${DESKTOP}/Проекты/PSFB_PrimarySide/Lib/MORNSUN.pretty") (options "") (descr ""))
+	(lib (name "Connector_my") (type "KiCad") (uri "${DESKTOP}/Проекты/PSFB_PrimarySide/Lib/Connector_my.pretty") (options "") (descr ""))
 )
