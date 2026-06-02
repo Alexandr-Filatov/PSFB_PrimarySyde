@@ -4992,6 +4992,7 @@
 		)
 		(property "Purpose" "RDY"
 			(at 121.92 163.703 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5262,6 +5263,7 @@
 		)
 		(property "Purpose" "FLT"
 			(at 152.654 151.003 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
