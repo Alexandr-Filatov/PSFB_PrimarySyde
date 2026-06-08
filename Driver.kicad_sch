@@ -3709,7 +3709,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G08"
+		(property "Value" ""
 			(at 90.17 149.7898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,6 +3742,50 @@
 			)
 		)
 		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "74LVC1G08"
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "AND"
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 101.6 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3944,7 +3988,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 255.27 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4300,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" ""
 			(at 199.39 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,6 +4334,50 @@
 		)
 		(property "Description" "NSI6651ASC-DSWR"
 			(at 199.39 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
+			(at 199.39 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Gate Driver"
+			(at 199.39 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 199.39 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 199.39 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4968,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Blue LED"
+		(property "Description P/N" "LEDs"
 			(at 125.73 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5002,6 +5090,17 @@
 			)
 		)
 		(property "Replacement" ""
+			(at 125.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 125.73 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5105,7 +5204,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5239,7 +5338,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Red LED"
+		(property "Description P/N" "LEDs"
 			(at 156.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5273,6 +5372,17 @@
 			)
 		)
 		(property "Replacement" ""
+			(at 156.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 156.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5596,7 +5706,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" ""
 			(at 189.992 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,6 +5740,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 198.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5871,6 +6025,17 @@
 				)
 			)
 		)
+		(property "Function" ""
+			(at 232.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91330bb2-6e95-42fa-a9c7-9a3333310bc3")
 		)
@@ -5921,7 +6086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0065100K"
+		(property "Value" ""
 			(at 270.51 151.3966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5958,6 +6123,50 @@
 			)
 		)
 		(property "Description" "22A Id, 1000V Vds, 120mOhm, N-Channel SiC MOSFET, TO-247-4"
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "C3M0065100K"
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "SiC Mosfet"
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 264.16 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 264.16 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6067,7 +6276,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 172.72 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6290,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 213.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6556,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 133.35 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6690,7 +6899,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 213.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6822,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 162.56 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7221,7 +7430,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 106.68 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7353,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 226.06 143.51 0)
 			(hide yes)
 			(show_name no)

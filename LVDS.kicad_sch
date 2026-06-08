@@ -1835,7 +1835,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2238,7 +2238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MS2111"
+		(property "Value" ""
 			(at 153.67 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2272,6 +2272,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MS2111"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "LVDS"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2809,7 +2853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" ""
 			(at 124.8411 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2847,6 +2891,50 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "USBLC6-2SC6"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "ESD protection"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 123.19 102.87 0)
 			(hide yes)
 			(show_name no)

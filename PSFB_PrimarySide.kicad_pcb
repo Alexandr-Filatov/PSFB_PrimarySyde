@@ -152,9 +152,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
@@ -174,7 +174,7 @@
 				)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" "~"
 			(at -1.27 5.31 90)
 			(layer "F.Fab")
 			(uuid "fc7caae1-a477-4fa6-8a3f-9fa60370bf82")
@@ -204,6 +204,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06f521f-f153-444f-b567-5226bb61d1a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ded94a7-d758-43cb-8db2-b3890000da77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbf2a76d-3295-4212-90f5-d94471f6c1c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2030f5eb-e2fc-49f0-bf50-2affe8ce719e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -507,7 +559,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -870,7 +922,7 @@
 				)
 			)
 		)
-		(property "Value" "C3M0065100K"
+		(property "Value" "~"
 			(at 5.08 3.2 90)
 			(layer "F.Fab")
 			(uuid "aaa39f83-1553-4619-9b77-671e38bb2c52")
@@ -900,6 +952,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "C3M0065100K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a2971fd-6e4e-4fb5-bc42-de07f1a394bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "SiC Mosfet"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "168043d4-5b0b-4b52-a443-5b801abc9c70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79c52f19-f71e-46ff-8b43-5f6975584f6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d94ac9c-81a7-47cc-a3a9-10564081637e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1467,7 +1571,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1863,7 +1967,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Blue LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1908,6 +2012,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87d450d5-30f0-45b2-82ae-d1ab23484e81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea0da884-a39c-4e93-bd7b-3366ef3cb988")
 			(effects
 				(font
 					(size 1 1)
@@ -2508,7 +2625,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2673,7 +2790,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G08"
+		(property "Value" "~"
 			(at 0 1.8 0)
 			(layer "F.Fab")
 			(uuid "2bb96f3d-cab7-440e-8cdb-b62c8bf03782")
@@ -2703,6 +2820,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "74LVC1G08"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468fc0a9-8f8f-4230-8f4d-6e09c2a2ca5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "AND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e46a319-2d98-495f-98b7-d68865f32e92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf4580f7-387c-4f1a-8cfb-3d5dc55e3f5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0208548-31d9-4fc2-9935-ddbf9e2301bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3061,7 +3230,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 5.25 0)
 			(layer "F.Fab")
 			(uuid "4804e6c9-3035-4b74-bd9f-aecb9faf02b7")
@@ -3091,6 +3260,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "092b675a-1e91-417b-af1d-2593fa3e27a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74d50131-cd92-4a5e-8012-487c1733fc99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbb23e2f-8331-49f7-9b8e-095712a2e364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38c9a045-382f-4f41-bcdb-1871d7a158d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4026,7 +4247,7 @@
 				)
 			)
 		)
-		(property "Value" "K78xx-500R3"
+		(property "Value" "~"
 			(at 0 3.1639 90)
 			(layer "F.Fab")
 			(uuid "d978b60f-b2ce-4485-9f86-accd636fd557")
@@ -4054,6 +4275,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4728742b-8624-4798-8dc6-1cf21a933b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Product Name" "K7805-500R3"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69122414-899e-42bf-a9ab-39b1c968229e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Linear regulator"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a3248a5-ff67-4e98-8695-0472dc34a4a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b62aa84-8230-489d-8200-96a2507b6e62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0da92f35-1e2c-402d-ae10-a29736c92306")
 			(effects
 				(font
 					(size 1 1)
@@ -4247,7 +4520,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4445,7 +4718,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4610,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Value" "C3M0065100K"
+		(property "Value" "~"
 			(at 5.08 3.2 90)
 			(layer "F.Fab")
 			(uuid "e176e889-4237-4848-bd1e-14345d5f92ab")
@@ -4640,6 +4913,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "C3M0065100K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13bc9daa-21a4-41fd-9db6-4b801fed7583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "SiC Mosfet"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a7576ff-44b9-44d8-9f5a-0a69786ec5bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ea36991-0b20-4d8b-acf5-5c2439eb50b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a03d3262-afa7-4053-b7b6-a8659b129e19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5826,7 +6151,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Yellow LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5871,6 +6196,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70c2702a-dfa7-4fa0-ac0e-f1e1fb5d71d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab56b8ef-5b47-474a-b834-c97db66328ef")
 			(effects
 				(font
 					(size 1 1)
@@ -6240,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" "~"
 			(at -1.27 5.31 0)
 			(layer "F.Fab")
 			(uuid "a4eb458c-a0aa-43fd-b83a-45c6cbd0b7ae")
@@ -6270,6 +6608,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "548556ba-9e16-41e5-ac7a-923403650cbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5a0edf6-ed2e-4577-bf39-bf55bceeff99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7daea75c-41ad-488e-9794-6fd2aaeaf8a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "833a1c3f-1c11-42a1-a267-3b6cdcef96ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6551,7 +6941,7 @@
 				)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" "~"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "b8f0059f-da01-4445-8243-d6f82303b638")
@@ -6581,6 +6971,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "USBLC6-2SC6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc02fce9-4ad6-4c79-9fed-7db8a5df9dfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "ESD protection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c5781cd-289d-4b9d-80ed-926bfc6dbbfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74097ee3-7c0f-4b9e-b4e2-b3d2cc326249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e205e4b5-19c8-483c-84ae-27c45a2121c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6934,6 +7376,58 @@
 				)
 			)
 		)
+		(property "Product Name" "B32774D8505K000"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbe5e20e-36e3-41e6-b509-29aa041f491f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor Film"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0de2f2a5-ecf1-4f67-98a4-b9300dbd0d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f5d3e8-45e9-4aa3-bfab-840250861f75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec73dec2-83f1-49ab-ac83-b6c9b05de2b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1ad09f42-fe8a-4a86-ae7b-2fa2f41a8859")
 		(sheetname "/")
@@ -7069,7 +7563,7 @@
 				)
 			)
 		)
-		(property "Value" "MS2111"
+		(property "Value" "~"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "39bab63b-a989-4ec1-8a1a-998dfc36908d")
@@ -7099,6 +7593,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MS2111"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a97b3675-6087-4621-b4d2-330b15d0acc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "LVDS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2925ca88-0b3a-463a-9e31-c102abca0b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3f87d1d-3b33-4881-bc42-d17cda045d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07897f98-47ba-44de-86fd-5a46cc182571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7471,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7867,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Red LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7912,6 +8458,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0e51ebb-7982-440c-aaad-f613067a5417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42902ebd-3ab2-4575-b386-db2313e7d6d5")
 			(effects
 				(font
 					(size 1 1)
@@ -8281,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" "~"
 			(at -1.27 5.31 90)
 			(layer "F.Fab")
 			(uuid "6ecbb655-ad2f-43d1-b341-c92d60f621cb")
@@ -8311,6 +8870,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e4725fd-7546-45ed-9a45-b7e83a2da96f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd8bc57a-275c-4801-8153-cf2a8dbfdd4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5edb8228-3e0f-4e54-b5ac-0e2d3dc86a67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfa32fd8-9d90-4a8d-b59b-83229bfc0eb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9694,7 +10305,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 5.25 0)
 			(layer "F.Fab")
 			(uuid "17225448-1065-4f1b-a4f8-cbf3083ecab5")
@@ -9724,6 +10335,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ace9db2b-1353-478a-a750-17b5b7abf9b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33b50818-d011-404a-bbd1-ba2ace1a5848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf35931-40b0-4c5a-8240-e03d6ca67da6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48656c94-40cf-4ee3-9730-2a4467a9f2d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9837,6 +10500,58 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f21fa6f-1768-4558-a170-f05c90c6aa17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9fca770-9aa2-4b76-8a51-e08e7f5281ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb913525-871f-4a60-b6b4-cecf0279521a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa76e7ca-b9f3-4813-b8cd-271fa5ba95e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b4f9c748-fa13-496c-ba83-e163795d5f41")
 		(sheetname "/")
@@ -9848,7 +10563,7 @@
 			)
 		)
 		(clearance 3)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 6.5 0)
@@ -9892,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" "~"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "d8e8a0a1-00ee-4d21-9f74-5332125c9214")
@@ -9922,6 +10637,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "USBLC6-2SC6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dff9a14-beef-4855-b0ef-ab66cbf03d98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "ESD protection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72171721-025b-460c-899d-8b02469ba8c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8dfeba0-a136-4586-b798-b18b72808265")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba559a86-b5a0-41ea-bc41-da3ad96708a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10242,7 +11009,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" "~"
 			(at 0 6.1 0)
 			(layer "F.Fab")
 			(uuid "bbe13c28-18c8-46c4-89f4-8873200e7370")
@@ -10272,6 +11039,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "597f9665-69fd-4a91-b901-9136e0e64210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Gate Driver"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27d03db7-833c-4d3a-b7f4-a1a0b10c9590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0894dbd-02f8-4928-bfea-36d0cfd21313")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60f7ca62-c883-49d5-ae92-6ed8a7aad3d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10891,7 +11710,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G08"
+		(property "Value" "~"
 			(at 0 1.8 0)
 			(layer "F.Fab")
 			(uuid "fcb5be49-f343-4c94-ad8c-96a3c1ed7be5")
@@ -10921,6 +11740,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "74LVC1G08"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3a59b6e-102c-4bd8-b58d-a63aad634f74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "AND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45f258b6-92bd-486d-87d8-35533abc70cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "866c6960-3d43-48b6-9072-d4eb4ef146d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20a1a247-c557-4b1f-afc7-36bbf3a65427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11311,7 +12182,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Red LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11356,6 +12227,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f3e133d-e3db-4e22-843c-346be9893708")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd2fb135-af5d-485f-b52a-2fd1859eb487")
 			(effects
 				(font
 					(size 1 1)
@@ -11885,7 +12769,7 @@
 				)
 			)
 		)
-		(property "Value" "MS2111"
+		(property "Value" "~"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "c08f534c-c9ea-4662-acc0-5734d9175f31")
@@ -11915,6 +12799,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MS2111"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8295bff7-860d-464d-b643-47fbd7770ad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "LVDS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e099400b-9241-4216-91cc-14b06fcbe4d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d656381-22db-48de-82bf-6dbca21c6cd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1433c975-e309-49b0-94d0-13c6390affa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12287,6 +13223,58 @@
 				)
 			)
 		)
+		(property "Product Name" "C1812X104K102T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bebf6f31-3852-4743-8d36-ee00ab89c171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor Film"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "831aeb69-2152-43b0-b5ff-c4a3a5551546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ff56863-0095-4c66-9833-5003ac1be20c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69499e43-f499-4451-ab7c-713151ef60f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e0989a92-3ee0-42e0-89e8-f24b0094c319")
 		(sheetname "/")
@@ -12433,7 +13421,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Red LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12478,6 +13466,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0b26127-9f3f-41f2-b81c-4bcf4d7c70b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "232fe82d-ea51-418e-b1bb-8afe09baf06d")
 			(effects
 				(font
 					(size 1 1)
@@ -12847,7 +13848,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC21"
+		(property "Value" "~"
 			(at 0 5.28 0)
 			(layer "F.Fab")
 			(uuid "ff52e4ba-cd4c-4677-ac02-5e06859afa3f")
@@ -12877,6 +13878,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "74HC21"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef9296c-cc8c-4feb-aa2a-22fba44b9123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "AND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ccd5c73-d533-4c69-b279-8f7c23e14ab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fb6d751-8a1e-43da-95f8-f0a7c53811ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f33c82a-aa21-422d-8333-37da78a8d2a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13314,6 +14367,58 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed0e8e0b-32b5-40aa-9570-11f10690ded8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d89313-202c-4375-bf99-0309a55b6c22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e2c4c58-97d2-437d-b5b1-ab9f19560672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e05b784c-9605-44bb-97a4-aa05499d0aa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a30480b7-ac26-4227-b9c2-74634d2969af")
 		(sheetname "/")
@@ -13325,7 +14430,7 @@
 			)
 		)
 		(clearance 3)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 6.5 0)
@@ -13765,7 +14870,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G08"
+		(property "Value" "~"
 			(at 0 1.8 0)
 			(layer "F.Fab")
 			(uuid "d67f265c-44cf-4daf-8335-14fed31de160")
@@ -13795,6 +14900,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "74LVC1G08"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfbbf76b-e6e3-413a-acf3-813aac0449e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "AND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd1fed82-8b35-4725-9c2c-0e655bab64f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a8fa8b-9936-4820-badc-f53aa598f626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a91c14-b2f3-435a-8c42-0e513239ca07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15276,7 +16433,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" "~"
 			(at 0 6.1 0)
 			(layer "F.Fab")
 			(uuid "5f2561f4-fd33-4123-9a05-9dde546d355e")
@@ -15306,6 +16463,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f42fc0a2-d975-4fef-b951-d09b045af175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Gate Driver"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4ce9779-45dc-4e0a-97c0-6a09344aa341")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b760a602-5de0-485b-8da1-eb08fc470a35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf226c5a-dec0-46a5-bd86-0263dc5f5660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15727,7 +16936,7 @@
 				)
 			)
 		)
-		(property "Value" "MS2111"
+		(property "Value" "~"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "a6d2f09d-58c2-4f41-b72a-5558bf0ff4cc")
@@ -15757,6 +16966,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MS2111"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73e11d27-5601-4092-9d6d-4b459cb92603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "LVDS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "314bd22e-3849-4a5c-a6ea-967a5bed689c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "503c09a0-71c1-487a-9860-2f546dfc6ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1839dc91-f7b6-4a93-bbc3-0410d2d2b346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16096,7 +17357,7 @@
 				)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" "~"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "06f77b6c-0b0d-4e7a-b3df-96a4786ffd2e")
@@ -16126,6 +17387,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "USBLC6-2SC6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfc4a894-1593-46fa-ac34-d9d3856cfd79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "ESD protection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89caf892-08df-482c-8904-39f52e8e70f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a42f1e1-ec30-4653-9fc1-a790782e0dc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d599a57b-e21e-41e0-b86e-1b3a071bfec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16484,6 +17797,58 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9234b041-87af-47f4-8358-88390e9833b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9303e8b-0435-41ac-94ef-4be2c63bde19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88dba7ff-52e0-41f6-8300-9a2e8b4b08ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21c5ebb1-039d-4485-9671-45c890512a95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/778048a3-6f60-4f92-8a5d-23113f2f5bce")
 		(sheetname "/")
@@ -16495,7 +17860,7 @@
 			)
 		)
 		(clearance 3)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 6.5 0)
@@ -16770,7 +18135,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16968,7 +18333,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Blue LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17013,6 +18378,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "828dd42a-d56f-4f7c-8e22-600e610e71ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "654f1d75-d29b-4fde-88ab-dc3e20d9b4e5")
 			(effects
 				(font
 					(size 1 1)
@@ -17185,7 +18563,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 5.25 0)
 			(layer "F.Fab")
 			(uuid "1a515953-2e49-40bd-8725-7fed5e095dba")
@@ -17215,6 +18593,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f698055-8b41-4317-8969-4c8a5b15e94c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f77b3fd-fdc9-4861-8312-d9e8035f480e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d357a9cf-8e9c-48c0-a2bb-a990ca13ddfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a111628-c3e9-4f7f-9e97-fec41b008739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17290,7 +18720,7 @@
 				)
 			)
 		)
-		(property "Value" "C3M0065100K"
+		(property "Value" "~"
 			(at 5.08 3.2 90)
 			(layer "F.Fab")
 			(uuid "530737bf-1445-4086-b4d5-c4ecd3acbacc")
@@ -17320,6 +18750,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "C3M0065100K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "940cceee-19b8-4b76-b43f-2772d06f1787")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "SiC Mosfet"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6176adf-49ef-4227-8868-1704fddf962e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce58745f-85fd-48b0-97e3-42d3e56c767a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a2fdf95-67f3-4119-a289-fefc89e1b436")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18085,7 +19567,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Red LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18130,6 +19612,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1dc039d3-e93a-4505-b737-43c871a69389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e871286-eef1-4d20-ba55-d4fa2a90f029")
 			(effects
 				(font
 					(size 1 1)
@@ -18334,6 +19829,58 @@
 				)
 			)
 		)
+		(property "Product Name" "C1812X104K102T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b414401-2367-4722-8a64-5f39cd01efac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor Film"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "108acc3c-0a41-4710-a103-e69bef1587f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afa552c0-5d92-4a1e-aea7-7cf500f6eb0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15a48a36-6b2d-4a10-969e-f3f695d24ff3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/abab9b5d-c48c-412b-9c2c-47f0f510f93c")
 		(sheetname "/")
@@ -18447,7 +19994,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G08"
+		(property "Value" "~"
 			(at 0 1.8 0)
 			(layer "F.Fab")
 			(uuid "a58bdce0-d98f-4710-80d0-9c849055ca46")
@@ -18477,6 +20024,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "74LVC1G08"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87617aa4-22de-4a66-9d10-6985a9a13f6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "AND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f03712-7ec1-48da-ade6-20ea4ee46147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7622e9fc-3ccd-4c01-8549-3a32ba56e6f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30201052-ce8b-4686-8ee8-370da65f98d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18867,7 +20466,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Blue LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18912,6 +20511,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a26aa167-94ad-470e-9227-376e585fa8bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74d7bc79-6e16-4d81-99b0-a660f8971d8b")
 			(effects
 				(font
 					(size 1 1)
@@ -19116,7 +20728,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Blue LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19161,6 +20773,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7e5550f-b713-480a-b367-d56d9dbddf1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3abccec-e294-4e3f-b5b8-002a8c8a333d")
 			(effects
 				(font
 					(size 1 1)
@@ -19563,7 +21188,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Yellow LED"
+		(property "Description P/N" "LEDs"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19608,6 +21233,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb814b96-f2fc-4dd7-b42c-08440805d68b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aedbfafc-11e4-45ba-8aac-56e53eda0bd9")
 			(effects
 				(font
 					(size 1 1)
@@ -20170,7 +21808,7 @@
 				)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20731,7 +22369,7 @@
 				)
 			)
 		)
-		(property "Value" "C3M0065100K"
+		(property "Value" "~"
 			(at 5.08 3.2 90)
 			(layer "F.Fab")
 			(uuid "490de50e-f3ae-47dd-bb0c-ecb250d45e4a")
@@ -20761,6 +22399,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "C3M0065100K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07f6470f-e97c-44f7-bb27-ada2c52d32e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "SiC Mosfet"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3398e4a-33b5-4c11-aedb-bc71054d3724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "213a8bb5-a9f8-446a-a161-60fd08148854")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0db81155-f700-4cc5-b2e1-f12a7c12c1ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21295,7 +22985,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" "~"
 			(at 0 6.1 0)
 			(layer "F.Fab")
 			(uuid "98686a56-feff-498a-ab1e-720c2a08df60")
@@ -21325,6 +23015,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff497143-0500-4886-9d82-ffe1aa7d0a59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Gate Driver"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "797b67df-67ab-42f4-8a10-34c5d71d3387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35db0d86-b1d7-4e14-8ea8-30e1454cc041")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4dd105d-e106-448a-ae70-2e86630d3f69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22180,6 +23922,58 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49de8d47-0949-408e-8cb1-0de5022b7957")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b03cf8e8-9340-4525-8bfa-0f986f4393c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dac8303-2aa4-4e20-bba4-42d0dd9dd7ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "935e6649-c75c-48b3-bfad-01e9d90893fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4f655b9b-1b46-4cfd-9e94-de0206233866")
 		(sheetname "/")
@@ -22191,7 +23985,7 @@
 			)
 		)
 		(clearance 3)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 6.5 0)
@@ -22235,7 +24029,7 @@
 				)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" "~"
 			(at -1.27 5.31 90)
 			(layer "F.Fab")
 			(uuid "a69072a9-3a9d-4485-9a8c-9fed48f87c40")
@@ -22265,6 +24059,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbeada91-9e3d-43ad-a30e-766ad855fca8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b2e4057-3f31-4163-8b2f-6df0082958a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8056fb7d-526e-4bf3-9e73-5c059b886493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "353dbd02-aa59-4643-bbe0-b92279533516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22535,7 +24381,7 @@
 				)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" "~"
 			(at -1.27 5.31 90)
 			(layer "F.Fab")
 			(uuid "ec4ee33e-8266-47f0-8de6-c27b40df4d77")
@@ -22565,6 +24411,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a62ca35-04a9-4f7e-9d2f-362024f9f1ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc15f1ef-81a6-4c5e-b823-0a5d7192a8c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa219f6-9435-4108-bb85-9dac9b9a1f50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b51c023-bc88-41f9-8391-8d6bb717c7d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22836,7 +24734,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 5.25 0)
 			(layer "F.Fab")
 			(uuid "d823d020-a9cd-4f06-9cbe-73d0e50dab28")
@@ -22866,6 +24764,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a502f0b-262d-410d-946c-13ecee39a36d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85e5e285-6107-47b3-ad26-4ea7a54f6eb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "162cf5ed-107a-4beb-a7c2-875a5943805f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893e55b0-a48b-49d6-b4c8-7c77fa873732")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23139,7 +25089,7 @@
 				)
 			)
 		)
-		(property "Value" "PSFB_Control"
+		(property "Value" "~"
 			(at 0 5.6 90)
 			(layer "F.Fab")
 			(uuid "960a70db-92ce-477c-a0e8-b8c9a3c665c0")
@@ -23169,6 +25119,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "FH12-20S-0.5SH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac2b6a40-cb0d-474c-93a8-cd95eae17975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e7c5811-8b38-4b77-8381-c71edab0c5aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10842ac0-a23c-40d1-b3a3-8c3147185443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf808f40-34ed-4455-8988-945a4dcb0c94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23670,7 +25672,7 @@
 				)
 			)
 		)
-		(property "Value" "Supply"
+		(property "Value" "~"
 			(at -1.27 5.31 0)
 			(layer "F.Fab")
 			(uuid "09f1264f-c5fd-4577-ab76-bcfd2347d6a7")
@@ -23700,6 +25702,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-208-2-04-S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d4a7e7e-de31-4ea7-a160-42f6f4870553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c519e91-86f3-4f5f-aa8f-60bd51628f33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5cecc2-34a0-48ae-8974-45960865760c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "870ea49d-3da5-47bc-a725-e3da883742aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24003,6 +26057,58 @@
 				)
 			)
 		)
+		(property "Product Name" "B32774D8505K000"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72dc6fac-008f-4f8f-b43c-dcfa24c3ad43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor Film"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f90b347-3b0c-4cdc-965a-20e5a0bbf5e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d18a805-93fe-40f7-91ae-a6b2056b0789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0f5042b-2650-41a2-952a-c22e3616849d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b010d149-91a7-45d7-a20e-39449b9b8b2b")
 		(sheetname "/")
@@ -24138,7 +26244,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" "~"
 			(at 0 6.1 0)
 			(layer "F.Fab")
 			(uuid "c025eb32-0324-4753-bc8a-eb3ebdf1856f")
@@ -24168,6 +26274,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788f3378-1e70-4f81-a849-7930a59fbf4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "Gate Driver"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1734158c-7ae3-42d7-b633-21a2a3bf4270")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9cfc456-3987-447c-9d1e-97b6bec30a35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db3ca270-5dba-430e-a325-c9a65fcee6d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24589,7 +26747,7 @@
 				)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" "~"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "1d6327cd-c0b5-460a-90fc-471e20eca1ed")
@@ -24619,6 +26777,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "USBLC6-2SC6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bd55427-6949-4808-8ab2-a0086d3d9e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "ESD protection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92806e41-7f19-4647-a671-1551460b40a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b9df94b-7d4a-45d0-a00d-6ef68ba502d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee3da791-0cb4-4b81-966c-491c7d501862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25137,7 +27347,7 @@
 				)
 			)
 		)
-		(property "Value" "MS2111"
+		(property "Value" "~"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "ad69e088-1084-459c-a210-ec4fc20663bc")
@@ -25167,6 +27377,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MS2111"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00cd05de-eb3a-4a7f-a2e3-fa5298d6daf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description P/N" "LVDS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b37b719c-8830-4c48-a447-91e76a0a68b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa05aa3-543c-4573-9010-5f902494c179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc088145-6936-4767-97a4-0312527df867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26271,7 +28533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26478,7 +28740,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26685,7 +28947,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26892,7 +29154,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27099,7 +29361,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27306,7 +29568,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27720,7 +29982,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27979,6 +30241,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a42c9aab-13ec-4bc2-9a72-ec4f98e79e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed26e55f-6d8d-4f81-a174-7828db100056")
 			(effects
 				(font
 					(size 1 1)
@@ -28278,7 +30554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28692,7 +30968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29313,7 +31589,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29520,7 +31796,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29727,7 +32003,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29986,6 +32262,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1f28b4af-06b2-46de-bfde-a6945880d423")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "00eaaaa8-5a3c-46e5-acaf-3d3798005735")
 			(effects
 				(font
 					(size 1 1)
@@ -30285,7 +32575,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30492,7 +32782,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30699,7 +32989,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30906,7 +33196,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31109,6 +33399,62 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Product Name" "CA45-A010K106T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3fd7f930-547a-42b0-b748-6f2b2215d590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description P/N" "Capacitor Tantalum SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8f7e0d68-5a2b-43f5-b3dc-e8270caf2f90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e6768fc-2c3c-4f4d-8401-37949b5055d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2faabc12-7961-4198-ae67-3e503c9da767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -31727,7 +34073,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31986,6 +34332,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8a81d139-a833-43d0-b5b3-997dcdd7c730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0cdfadda-83ad-4d52-8c91-d440f518a542")
 			(effects
 				(font
 					(size 1 1)
@@ -32285,7 +34645,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32492,7 +34852,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32906,7 +35266,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33320,7 +35680,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33527,7 +35887,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33734,7 +36094,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33941,7 +36301,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34148,7 +36508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34355,7 +36715,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34769,7 +37129,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35183,7 +37543,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35442,6 +37802,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "527694d4-2556-42a3-b37b-024db3175864")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52b67c10-bad8-42b3-a1ec-24696b8e4ef2")
 			(effects
 				(font
 					(size 1 1)
@@ -35741,7 +38115,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35948,7 +38322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36155,7 +38529,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36362,7 +38736,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 50+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36569,7 +38943,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36983,6 +39357,62 @@
 				(justify mirror)
 			)
 		)
+		(property "Product Name" "CA45-A010K226T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c3a5b418-642d-4f79-a073-389c0d55ceb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description P/N" "Capacitor Tantalum SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8cc845ed-46ba-4ecb-8b79-a1f589aa5fd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1434298d-686e-4414-9915-0849fc066e21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0c00cbe-689d-47bf-81a2-017d9f2709ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/4dd065c4-4b8a-45c5-855c-eb4a817e80c6")
 		(sheetname "/")
@@ -37183,7 +39613,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37561,7 +39991,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "~"
 			(at 0 -4.5 90)
 			(layer "B.Fab")
 			(uuid "4a096a20-a6bf-4eb7-bc06-e83740762eef")
@@ -37596,6 +40026,62 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Product Name" "AMS1117-3.3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4cea3d74-8ce9-43bf-b33d-f4c419f73ce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description P/N" "Linear regulator"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dacc095f-569b-4a54-a65c-b8584165afac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Replacement" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9308279f-5499-4898-99d8-6c51b9130776")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Function" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "15008099-6f57-4529-b2b2-7cbff68b4a34")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38288,7 +40774,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description P/N" "Capacitor SMD 25+V"
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40058,60 +42544,460 @@
 		(uuid "9cc6897f-ae9c-41be-bd18-77167dbbeaf2")
 	)
 	(segment
-		(start 29.25 106.75)
-		(end 28.25 106.75)
+		(start 30.25 110.9375)
+		(end 30.25 112)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/RST")
-		(uuid "5273f107-e728-4db2-84d7-5eab1d4c1dfb")
+		(net "/Driver_1/~{RST}")
+		(uuid "0011e2b7-a37b-4b3d-a112-cbeede468e03")
 	)
 	(segment
-		(start 21.807073 106.75)
-		(end 21.807088 106.749985)
-		(width 0.3)
+		(start 55 124.75)
+		(end 55 125.875)
+		(width 0.5)
 		(layer "F.Cu")
-		(net "/RST")
-		(uuid "5beffecc-e0c1-439a-b16c-de572b109cd1")
+		(net "/Driver_1/~{RST}")
+		(uuid "089132fa-c601-44f8-ae09-fd4da4fa39eb")
 	)
 	(segment
-		(start 20.8 106.75)
-		(end 21.807073 106.75)
-		(width 0.3)
+		(start 55 106.25)
+		(end 55 107.375)
+		(width 0.5)
 		(layer "F.Cu")
-		(net "/RST")
-		(uuid "98b282b7-e21a-42fc-abd3-c6ad6108de33")
+		(net "/Driver_1/~{RST}")
+		(uuid "0898c171-f0ac-40ad-a3e9-7cf2bfab9ec2")
+	)
+	(segment
+		(start 30.3125 111)
+		(end 30.25 110.9375)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "0d71d787-3c4b-46ac-9ed4-013e14a49e51")
+	)
+	(segment
+		(start 33.25 111)
+		(end 30.3125 111)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "428c4b28-9ad0-4365-b323-a058c17288f0")
+	)
+	(segment
+		(start 55 87.75)
+		(end 55 88.875)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "8f44f013-9568-4f65-b819-aa8a856bc0d8")
+	)
+	(segment
+		(start 55 143.25)
+		(end 55 144.375)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "d1ae4000-d9dd-4c5e-99f9-67a63740463e")
 	)
 	(via
-		(at 21.807088 106.749985)
+		(at 43.5 142.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/RST")
-		(uuid "92fd66b1-794d-42e6-9835-24dbf945de57")
+		(net "/Driver_1/~{RST}")
+		(uuid "6e127332-1adc-47a3-bbe2-a4eb5e10f3e4")
 	)
 	(via
-		(at 28.25 106.75)
+		(at 30.25 112)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/RST")
-		(uuid "f898048e-2c5b-4da4-a151-8ec7e8017ffe")
+		(net "/Driver_1/~{RST}")
+		(uuid "6ea67b67-da9e-4c48-bf8f-1ad95689ecf4")
+	)
+	(via
+		(at 55 88.875)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "866f83ba-48de-4fc9-b594-5d9ad5a42588")
+	)
+	(via
+		(at 55 125.875)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "b9074d3e-1d33-4d2d-8dcf-a6f7d9482254")
+	)
+	(via
+		(at 55 144.375)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "d98afef2-3c68-4f54-85d8-acffb5caffee")
+	)
+	(via
+		(at 55 107.375)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "e4c4a2eb-ddc3-40ce-80f8-eba4fd53f318")
 	)
 	(segment
-		(start 28.25 106.75)
-		(end 21.807103 106.75)
+		(start 34.75 142.25)
+		(end 43.5 142.25)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/RST")
-		(uuid "842eb443-599a-4d3a-81a2-99b4de10b4fc")
+		(net "/Driver_1/~{RST}")
+		(uuid "45913bbf-9c04-41d3-9af6-3a2c2175950c")
 	)
 	(segment
-		(start 21.807103 106.75)
-		(end 21.807088 106.749985)
+		(start 30.25 137.75)
+		(end 34.75 142.25)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/RST")
-		(uuid "b4e1a59c-6282-48cf-aac2-cb0186f38826")
+		(net "/Driver_1/~{RST}")
+		(uuid "ad2f6215-148d-41a9-bbfc-3d4e76007f8b")
+	)
+	(segment
+		(start 30.25 112)
+		(end 30.25 137.75)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "f32af998-9b43-4c99-a103-f8299e75e4d2")
+	)
+	(segment
+		(start 43.5 142.25)
+		(end 52.5 142.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "02b3ce1e-2100-47dd-b4d8-56b75698d974")
+	)
+	(segment
+		(start 49.75 127.25)
+		(end 49.75 134)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "0798fa2e-992b-42db-a6b4-bebc68ebd41a")
+	)
+	(segment
+		(start 57.75 135.75)
+		(end 58.75 136.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "0f8b5250-c3f3-411e-bf96-21d8bf08c608")
+	)
+	(segment
+		(start 53.5 116)
+		(end 58.75 121.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "10918f8b-6c49-49d0-a94b-f1bfd8f6f210")
+	)
+	(segment
+		(start 54.625 144.375)
+		(end 55 144.375)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "1e352846-2da8-4815-b6f7-de676c9de337")
+	)
+	(segment
+		(start 54.25 126.75)
+		(end 50.25 126.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "2a8a8514-36a8-462f-aa81-3d448b2dde0a")
+	)
+	(segment
+		(start 49.5 96.75)
+		(end 50.25 97.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "2e6a4ab5-7aaa-45ad-b2d8-95e8ca49a675")
+	)
+	(segment
+		(start 58.75 121.25)
+		(end 58.75 125.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "36687fab-8c2d-447c-b154-4b0a84541fbd")
+	)
+	(segment
+		(start 55 135.75)
+		(end 57.75 135.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "3c46d280-d4c2-4eb4-8c63-01dc34b254a0")
+	)
+	(segment
+		(start 55 88.875)
+		(end 55 89)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "3dd0e248-e2f0-4d8e-91bd-c742c452354f")
+	)
+	(segment
+		(start 58.75 125.25)
+		(end 58.125 125.875)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "4207fb11-f172-40e2-a927-48c2e42633ed")
+	)
+	(segment
+		(start 55 89)
+		(end 54.25 89.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "42cb4ee3-dc7d-4247-99ab-7221fbbf90dd")
+	)
+	(segment
+		(start 50.25 116)
+		(end 53.5 116)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "4cd53268-5815-4307-8336-b0167db60ec2")
+	)
+	(segment
+		(start 57 98.5)
+		(end 58.5 100)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "6d5f9bc2-aae8-44fb-9e6e-9206716f046a")
+	)
+	(segment
+		(start 57.75 144.5)
+		(end 55.125 144.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "76ae15f7-9e6b-4575-ba42-9225253bf427")
+	)
+	(segment
+		(start 50 89.75)
+		(end 49.5 90.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "81c0caa5-1171-4bc0-a40e-70ce6924cc8d")
+	)
+	(segment
+		(start 49.5 108.75)
+		(end 49.5 115.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "843bde5d-16cd-4d53-b9b5-44f94be64df2")
+	)
+	(segment
+		(start 53.75 134.5)
+		(end 55 135.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "8c921a8e-a544-4800-bfcc-381124ab0556")
+	)
+	(segment
+		(start 50.25 97.5)
+		(end 54.5 97.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "8f98f369-0ce1-4a85-b95a-fbe239fd5082")
+	)
+	(segment
+		(start 52.5 142.25)
+		(end 54.625 144.375)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "904419f0-4bab-4bd9-9d00-ee399e13bfeb")
+	)
+	(segment
+		(start 54.5 97.5)
+		(end 55.5 98.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "9667024b-b2fc-4b2c-b8a9-790ec2016315")
+	)
+	(segment
+		(start 50.25 134.5)
+		(end 53.75 134.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "96c64480-d673-4a45-9092-b36e0ca0455f")
+	)
+	(segment
+		(start 55.125 144.5)
+		(end 55 144.375)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "a22d32b9-02ff-43a4-ae73-b38a25f9fa59")
+	)
+	(segment
+		(start 50 108.25)
+		(end 49.5 108.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "a7bb239b-f217-43db-a869-a0893d401fd5")
+	)
+	(segment
+		(start 58.5 100)
+		(end 58.5 106.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "b0047127-4b30-4c0f-a1c7-6d1e614e3620")
+	)
+	(segment
+		(start 55.5 98.5)
+		(end 57 98.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "b6fc917c-a584-4a26-8709-f1c2c1ae3b54")
+	)
+	(segment
+		(start 54 108.25)
+		(end 50 108.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "b8a4a285-00f9-4089-967a-97a49e897eed")
+	)
+	(segment
+		(start 58.5 106.25)
+		(end 57.375 107.375)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "b9e90d50-a1dc-485f-907a-b465db1cd8ef")
+	)
+	(segment
+		(start 58.75 143.5)
+		(end 57.75 144.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "bc59d4dc-d313-48d1-88ba-1c6bccbcae9e")
+	)
+	(segment
+		(start 49.5 115.25)
+		(end 50.25 116)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "be1cc763-dd3b-4690-aa17-0169b4e29c37")
+	)
+	(segment
+		(start 55 107.375)
+		(end 54.875 107.375)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "ca3a69a9-db29-4ac0-82c9-20b9ef1b5810")
+	)
+	(segment
+		(start 49.5 90.25)
+		(end 49.5 96.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "cb16abd3-c005-4a87-a941-d2bf37e8c8fd")
+	)
+	(segment
+		(start 55 125.875)
+		(end 55 126)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "cdac193d-9fe8-4b00-9963-bb060832fa8a")
+	)
+	(segment
+		(start 50.25 126.75)
+		(end 49.75 127.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "d91c02d9-8d9a-405b-9284-49332dd91735")
+	)
+	(segment
+		(start 54.25 89.75)
+		(end 50 89.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "d9b43622-fa70-486c-a15c-f7efc9c787d3")
+	)
+	(segment
+		(start 58.75 136.75)
+		(end 58.75 143.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "df97264b-e731-4510-9cc7-9eb7699ee8aa")
+	)
+	(segment
+		(start 55 126)
+		(end 54.25 126.75)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "e1660a04-ae82-47ae-9c86-85dda565edd2")
+	)
+	(segment
+		(start 58.125 125.875)
+		(end 55 125.875)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "ebf6ef41-86de-4a2f-8422-052c56cb0598")
+	)
+	(segment
+		(start 57.375 107.375)
+		(end 55 107.375)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "f1f34b34-6632-43d8-92ad-504e9c1f20e7")
+	)
+	(segment
+		(start 49.75 134)
+		(end 50.25 134.5)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "f524e255-8477-4c71-9e1a-5a5421d9c35d")
+	)
+	(segment
+		(start 54.875 107.375)
+		(end 54 108.25)
+		(width 0.5)
+		(layer "In2.Cu")
+		(net "/Driver_1/~{RST}")
+		(uuid "fd8e33ae-500c-40a9-81d8-37d6c63eef04")
 	)
 	(segment
 		(start 58.1 103.905)
@@ -42575,6 +45461,22 @@
 		(uuid "176e0533-6a9e-4603-9f7a-c0c7c8759f2b")
 	)
 	(segment
+		(start 31.2 109.0625)
+		(end 31.2 106.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(Q5-B)")
+		(uuid "ce90cc42-232c-4451-a04c-e24a4ff3741d")
+	)
+	(segment
+		(start 31.2 106.8)
+		(end 31.25 106.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(Q5-B)")
+		(uuid "ee1ea7bc-5610-4865-a55f-8e4b5e502a30")
+	)
+	(segment
 		(start 51.8375 136.25)
 		(end 52.75 136.25)
 		(width 0.3)
@@ -44629,6 +47531,62 @@
 		(uuid "ccca2cf1-25ca-4015-a2c4-24a6df0f629b")
 	)
 	(segment
+		(start 29.25 106.75)
+		(end 28.25 106.75)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/RST")
+		(uuid "5273f107-e728-4db2-84d7-5eab1d4c1dfb")
+	)
+	(segment
+		(start 21.807073 106.75)
+		(end 21.807088 106.749985)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/RST")
+		(uuid "5beffecc-e0c1-439a-b16c-de572b109cd1")
+	)
+	(segment
+		(start 20.8 106.75)
+		(end 21.807073 106.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/RST")
+		(uuid "98b282b7-e21a-42fc-abd3-c6ad6108de33")
+	)
+	(via
+		(at 21.807088 106.749985)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/RST")
+		(uuid "92fd66b1-794d-42e6-9835-24dbf945de57")
+	)
+	(via
+		(at 28.25 106.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/RST")
+		(uuid "f898048e-2c5b-4da4-a151-8ec7e8017ffe")
+	)
+	(segment
+		(start 28.25 106.75)
+		(end 21.807103 106.75)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "/RST")
+		(uuid "842eb443-599a-4d3a-81a2-99b4de10b4fc")
+	)
+	(segment
+		(start 21.807103 106.75)
+		(end 21.807088 106.749985)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "/RST")
+		(uuid "b4e1a59c-6282-48cf-aac2-cb0186f38826")
+	)
+	(segment
 		(start 85.75 88.5)
 		(end 86.75 87.5)
 		(width 0.5)
@@ -45323,478 +48281,6 @@
 		(layer "F.Cu")
 		(net "/PWM_L1_N")
 		(uuid "fb0b0a4f-a24e-440d-831d-54a673471552")
-	)
-	(segment
-		(start 30.25 110.9375)
-		(end 30.25 112)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "0011e2b7-a37b-4b3d-a112-cbeede468e03")
-	)
-	(segment
-		(start 55 124.75)
-		(end 55 125.875)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "089132fa-c601-44f8-ae09-fd4da4fa39eb")
-	)
-	(segment
-		(start 55 106.25)
-		(end 55 107.375)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "0898c171-f0ac-40ad-a3e9-7cf2bfab9ec2")
-	)
-	(segment
-		(start 30.3125 111)
-		(end 30.25 110.9375)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "0d71d787-3c4b-46ac-9ed4-013e14a49e51")
-	)
-	(segment
-		(start 33.25 111)
-		(end 30.3125 111)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "428c4b28-9ad0-4365-b323-a058c17288f0")
-	)
-	(segment
-		(start 55 87.75)
-		(end 55 88.875)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "8f44f013-9568-4f65-b819-aa8a856bc0d8")
-	)
-	(segment
-		(start 55 143.25)
-		(end 55 144.375)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "d1ae4000-d9dd-4c5e-99f9-67a63740463e")
-	)
-	(via
-		(at 43.5 142.25)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "6e127332-1adc-47a3-bbe2-a4eb5e10f3e4")
-	)
-	(via
-		(at 30.25 112)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "6ea67b67-da9e-4c48-bf8f-1ad95689ecf4")
-	)
-	(via
-		(at 55 88.875)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "866f83ba-48de-4fc9-b594-5d9ad5a42588")
-	)
-	(via
-		(at 55 125.875)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "b9074d3e-1d33-4d2d-8dcf-a6f7d9482254")
-	)
-	(via
-		(at 55 144.375)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "d98afef2-3c68-4f54-85d8-acffb5caffee")
-	)
-	(via
-		(at 55 107.375)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "e4c4a2eb-ddc3-40ce-80f8-eba4fd53f318")
-	)
-	(segment
-		(start 34.75 142.25)
-		(end 43.5 142.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "45913bbf-9c04-41d3-9af6-3a2c2175950c")
-	)
-	(segment
-		(start 30.25 137.75)
-		(end 34.75 142.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "ad2f6215-148d-41a9-bbfc-3d4e76007f8b")
-	)
-	(segment
-		(start 30.25 112)
-		(end 30.25 137.75)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "f32af998-9b43-4c99-a103-f8299e75e4d2")
-	)
-	(segment
-		(start 43.5 142.25)
-		(end 52.5 142.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "02b3ce1e-2100-47dd-b4d8-56b75698d974")
-	)
-	(segment
-		(start 49.75 127.25)
-		(end 49.75 134)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "0798fa2e-992b-42db-a6b4-bebc68ebd41a")
-	)
-	(segment
-		(start 57.75 135.75)
-		(end 58.75 136.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "0f8b5250-c3f3-411e-bf96-21d8bf08c608")
-	)
-	(segment
-		(start 53.5 116)
-		(end 58.75 121.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "10918f8b-6c49-49d0-a94b-f1bfd8f6f210")
-	)
-	(segment
-		(start 54.625 144.375)
-		(end 55 144.375)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "1e352846-2da8-4815-b6f7-de676c9de337")
-	)
-	(segment
-		(start 54.25 126.75)
-		(end 50.25 126.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "2a8a8514-36a8-462f-aa81-3d448b2dde0a")
-	)
-	(segment
-		(start 49.5 96.75)
-		(end 50.25 97.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "2e6a4ab5-7aaa-45ad-b2d8-95e8ca49a675")
-	)
-	(segment
-		(start 58.75 121.25)
-		(end 58.75 125.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "36687fab-8c2d-447c-b154-4b0a84541fbd")
-	)
-	(segment
-		(start 55 135.75)
-		(end 57.75 135.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "3c46d280-d4c2-4eb4-8c63-01dc34b254a0")
-	)
-	(segment
-		(start 55 88.875)
-		(end 55 89)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "3dd0e248-e2f0-4d8e-91bd-c742c452354f")
-	)
-	(segment
-		(start 58.75 125.25)
-		(end 58.125 125.875)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "4207fb11-f172-40e2-a927-48c2e42633ed")
-	)
-	(segment
-		(start 55 89)
-		(end 54.25 89.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "42cb4ee3-dc7d-4247-99ab-7221fbbf90dd")
-	)
-	(segment
-		(start 50.25 116)
-		(end 53.5 116)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "4cd53268-5815-4307-8336-b0167db60ec2")
-	)
-	(segment
-		(start 57 98.5)
-		(end 58.5 100)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "6d5f9bc2-aae8-44fb-9e6e-9206716f046a")
-	)
-	(segment
-		(start 57.75 144.5)
-		(end 55.125 144.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "76ae15f7-9e6b-4575-ba42-9225253bf427")
-	)
-	(segment
-		(start 50 89.75)
-		(end 49.5 90.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "81c0caa5-1171-4bc0-a40e-70ce6924cc8d")
-	)
-	(segment
-		(start 49.5 108.75)
-		(end 49.5 115.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "843bde5d-16cd-4d53-b9b5-44f94be64df2")
-	)
-	(segment
-		(start 53.75 134.5)
-		(end 55 135.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "8c921a8e-a544-4800-bfcc-381124ab0556")
-	)
-	(segment
-		(start 50.25 97.5)
-		(end 54.5 97.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "8f98f369-0ce1-4a85-b95a-fbe239fd5082")
-	)
-	(segment
-		(start 52.5 142.25)
-		(end 54.625 144.375)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "904419f0-4bab-4bd9-9d00-ee399e13bfeb")
-	)
-	(segment
-		(start 54.5 97.5)
-		(end 55.5 98.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "9667024b-b2fc-4b2c-b8a9-790ec2016315")
-	)
-	(segment
-		(start 50.25 134.5)
-		(end 53.75 134.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "96c64480-d673-4a45-9092-b36e0ca0455f")
-	)
-	(segment
-		(start 55.125 144.5)
-		(end 55 144.375)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "a22d32b9-02ff-43a4-ae73-b38a25f9fa59")
-	)
-	(segment
-		(start 50 108.25)
-		(end 49.5 108.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "a7bb239b-f217-43db-a869-a0893d401fd5")
-	)
-	(segment
-		(start 58.5 100)
-		(end 58.5 106.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "b0047127-4b30-4c0f-a1c7-6d1e614e3620")
-	)
-	(segment
-		(start 55.5 98.5)
-		(end 57 98.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "b6fc917c-a584-4a26-8709-f1c2c1ae3b54")
-	)
-	(segment
-		(start 54 108.25)
-		(end 50 108.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "b8a4a285-00f9-4089-967a-97a49e897eed")
-	)
-	(segment
-		(start 58.5 106.25)
-		(end 57.375 107.375)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "b9e90d50-a1dc-485f-907a-b465db1cd8ef")
-	)
-	(segment
-		(start 58.75 143.5)
-		(end 57.75 144.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "bc59d4dc-d313-48d1-88ba-1c6bccbcae9e")
-	)
-	(segment
-		(start 49.5 115.25)
-		(end 50.25 116)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "be1cc763-dd3b-4690-aa17-0169b4e29c37")
-	)
-	(segment
-		(start 55 107.375)
-		(end 54.875 107.375)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "ca3a69a9-db29-4ac0-82c9-20b9ef1b5810")
-	)
-	(segment
-		(start 49.5 90.25)
-		(end 49.5 96.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "cb16abd3-c005-4a87-a941-d2bf37e8c8fd")
-	)
-	(segment
-		(start 55 125.875)
-		(end 55 126)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "cdac193d-9fe8-4b00-9963-bb060832fa8a")
-	)
-	(segment
-		(start 50.25 126.75)
-		(end 49.75 127.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "d91c02d9-8d9a-405b-9284-49332dd91735")
-	)
-	(segment
-		(start 54.25 89.75)
-		(end 50 89.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "d9b43622-fa70-486c-a15c-f7efc9c787d3")
-	)
-	(segment
-		(start 58.75 136.75)
-		(end 58.75 143.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "df97264b-e731-4510-9cc7-9eb7699ee8aa")
-	)
-	(segment
-		(start 55 126)
-		(end 54.25 126.75)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "e1660a04-ae82-47ae-9c86-85dda565edd2")
-	)
-	(segment
-		(start 58.125 125.875)
-		(end 55 125.875)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "ebf6ef41-86de-4a2f-8422-052c56cb0598")
-	)
-	(segment
-		(start 57.375 107.375)
-		(end 55 107.375)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "f1f34b34-6632-43d8-92ad-504e9c1f20e7")
-	)
-	(segment
-		(start 49.75 134)
-		(end 50.25 134.5)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "f524e255-8477-4c71-9e1a-5a5421d9c35d")
-	)
-	(segment
-		(start 54.875 107.375)
-		(end 54 108.25)
-		(width 0.5)
-		(layer "In2.Cu")
-		(net "/Driver_1/~{RST}")
-		(uuid "fd8e33ae-500c-40a9-81d8-37d6c63eef04")
-	)
-	(segment
-		(start 31.2 109.0625)
-		(end 31.2 106.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(Q5-B)")
-		(uuid "ce90cc42-232c-4451-a04c-e24a4ff3741d")
-	)
-	(segment
-		(start 31.2 106.8)
-		(end 31.25 106.75)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(Q5-B)")
-		(uuid "ee1ea7bc-5610-4865-a55f-8e4b5e502a30")
 	)
 	(zone
 		(net "Net-(D19-OUTL)")
@@ -49435,7 +51921,7 @@
 				(xy 29.737013 112.212475) (xy 29.737719 112.214594) (xy 29.737601 112.214633) (xy 29.742351 112.231357)
 				(xy 29.747116 112.255305) (xy 29.7495 112.279503) (xy 29.7495 137.684108) (xy 29.7495 137.815892)
 				(xy 29.753963 137.832547) (xy 29.783608 137.943187) (xy 29.816554 138.00025) (xy 29.8495 138.057314)
-				(xy 34.3495 142.557314) (xy 34.442686 142.6505) (xy 34.556814 142.716392) (xy 34.684108 142.7505)
+				(xy 34.442686 142.6505) (xy 34.556814 142.716392) (xy 34.684108 142.7505) (xy 34.815892 142.7505)
 				(xy 43.220497 142.7505) (xy 43.244683 142.752882) (xy 43.268603 142.757639) (xy 43.28312 142.761806)
 				(xy 43.287513 142.762983) (xy 43.287515 142.762984) (xy 43.427525 142.8005) (xy 43.427528 142.8005)
 				(xy 43.572472 142.8005) (xy 43.572475 142.8005) (xy 43.712485 142.762984) (xy 43.838015 142.690509)
