@@ -1581,6 +1581,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65764dc7-eb8d-4564-95b7-4920aec6e536")
 		)
@@ -1664,6 +1675,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 119.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1767,6 +1789,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 168.91 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60245dcb-dd7e-4c94-8766-677828aeb9ee")
 		)
@@ -1816,7 +1849,7 @@
 				)
 			)
 		)
-		(property "Value" "QA151C3"
+		(property "Value" ""
 			(at 143.51 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1849,6 +1882,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "QA151C3"
+			(at 143.51 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "DC/DC"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1961,6 +2016,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 107.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "69635d37-7627-4239-8b1c-a0f6c2a105f8")
 		)
@@ -2030,7 +2096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CDRH5D28NP-220NC"
+		(property "Datasheet" ""
 			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2042,6 +2108,50 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 114.3 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "CDRH5D28NP-220NC"
+			(at 114.3 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Inductor SMD"
+			(at 114.3 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 114.3 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2145,6 +2255,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 125.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7702d842-e8bf-401f-8254-8c58ce1ad74c")
 		)
@@ -2195,7 +2316,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PWR_IN"
+		(property "Value" ""
 			(at 176.53 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2229,6 +2350,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-207-2-04-S"
+			(at 180.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 180.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 180.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
