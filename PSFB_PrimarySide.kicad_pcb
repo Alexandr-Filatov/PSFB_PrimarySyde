@@ -6913,6 +6913,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/3D/PSFB_Supply_v1.0.step"
+			(hide yes)
 			(offset
 				(xyz 8 -34.75 11)
 			)
@@ -10589,6 +10590,17 @@
 			(uuid "414bd749-8dcd-4856-b73c-1306b93e77ca")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D/Bush_Phase.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 90 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
@@ -14456,6 +14468,17 @@
 			(uuid "fcecf5b2-4c81-41d8-9f43-4500ae691cab")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D/Bush_Phase.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 90 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -17886,6 +17909,17 @@
 			(uuid "11f6e511-c813-4959-9987-ffebea65f39e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D/Bush_Phase.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 90 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -24011,6 +24045,17 @@
 			(uuid "63019b60-fa9b-4a92-a23c-5ec4daecfa83")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D/Bush_Phase.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 90 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
